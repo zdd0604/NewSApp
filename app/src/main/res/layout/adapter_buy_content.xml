@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <cn.refactor.library.SmoothCheckBox
+            android:id="@+id/scb"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_margin="5dp"/>
+        <ImageView
+            android:id="@+id/ivImg"
+            android:layout_width="160px"
+            android:layout_height="180px"
+            android:scaleType="centerCrop"
+            android:src="@drawable/diannao" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联想ThinkPad Z470笔记本超值优惠"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8px"
+                android:text="颜色：银色"
+                android:textColor="@color/grey_400" />
+
+            <TextView
+                android:id="@+id/tvCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16px"
+                android:gravity="bottom"
+                android:text="$9999"
+                android:textColor="@color/red_500" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <me.himanshusoni.quantityview.QuantityView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/quantityView_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128px"
+        android:layout_marginTop="20px"
+        app:qv_quantity="1"
+        app:qv_quantityPadding="36px" />
+</LinearLayout>

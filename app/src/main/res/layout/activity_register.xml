@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.5dp"
+        android:layout_marginTop="@dimen/space_24"
+        android:orientation="horizontal">
+        <!-- <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:paddingTop="@dimen/space_16"
+             android:paddingBottom="@dimen/space_16"
+             android:paddingLeft="@dimen/space_8"
+             android:paddingRight="@dimen/space_8"
+             android:textSize="@dimen/text_size_14"
+             android:text="@string/login_username"
+             android:layout_weight="0.15"/>-->
+        <EditText
+            android:id="@+id/etAccount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.85"
+            android:background="@null"
+            android:hint="@string/login_input_username"
+            android:paddingBottom="@dimen/space_16"
+            android:paddingLeft="@dimen/space_8"
+            android:paddingRight="@dimen/space_8"
+            android:paddingTop="@dimen/space_16"
+            android:textColor="@color/grey_500"
+            android:textSize="@dimen/text_size_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.5dp"
+        android:orientation="horizontal">
+        <!-- <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:paddingTop="@dimen/space_16"
+             android:paddingBottom="@dimen/space_16"
+             android:paddingLeft="@dimen/space_8"
+             android:paddingRight="@dimen/space_8"
+             android:textSize="@dimen/text_size_14"
+             android:text="@string/login_username"
+             android:layout_weight="0.15"/>-->
+        <EditText
+            android:id="@+id/etValidateCode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.85"
+            android:background="@null"
+            android:hint="@string/signin_input_code"
+            android:paddingBottom="@dimen/space_16"
+            android:paddingLeft="@dimen/space_8"
+            android:paddingRight="@dimen/space_8"
+            android:paddingTop="@dimen/space_16"
+            android:textColor="@color/grey_500"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/btnSendCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signin_code" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.5dp"
+        android:orientation="horizontal">
+        <!-- <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:paddingTop="@dimen/space_16"
+             android:paddingBottom="@dimen/space_16"
+             android:paddingLeft="@dimen/space_8"
+             android:paddingRight="@dimen/space_8"
+             android:textSize="@dimen/text_size_14"
+             android:text="@string/login_username"
+             android:layout_weight="0.15"/>-->
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.85"
+            android:background="@null"
+            android:hint="@string/signin_input_pass"
+            android:paddingBottom="@dimen/space_16"
+            android:paddingLeft="@dimen/space_8"
+            android:paddingRight="@dimen/space_8"
+            android:paddingTop="@dimen/space_16"
+            android:textColor="@color/grey_500"
+            android:textSize="@dimen/text_size_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.5dp"
+        android:orientation="horizontal">
+        <!-- <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:paddingTop="@dimen/space_16"
+             android:paddingBottom="@dimen/space_16"
+             android:paddingLeft="@dimen/space_8"
+             android:paddingRight="@dimen/space_8"
+             android:textSize="@dimen/text_size_14"
+             android:text="@string/login_username"
+             android:layout_weight="0.15"/>-->
+        <EditText
+            android:id="@+id/etConfirmPass"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.85"
+            android:background="@null"
+            android:hint="@string/signin_input_confirmpass"
+            android:paddingBottom="@dimen/space_16"
+            android:paddingLeft="@dimen/space_8"
+            android:paddingRight="@dimen/space_8"
+            android:paddingTop="@dimen/space_16"
+            android:textColor="@color/grey_500"
+            android:textSize="@dimen/text_size_14" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginRight="@dimen/space_16"
+        android:layout_marginTop="@dimen/space_24"
+        android:background="@color/colorPrimary"
+        android:text="@string/signin_register"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16" />
+</LinearLayout>

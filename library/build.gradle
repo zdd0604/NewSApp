@@ -1,0 +1,40 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 23
+
+        //glide-transformations
+        /*renderscriptTargetApi 20
+        renderscriptSupportModeEnabled true*/
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':cropMaster')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+
+    //glide-transformations
+    /*compile 'jp.wasabeef:glide-transformations:1.3.1'
+    compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.3.0'*/
+}

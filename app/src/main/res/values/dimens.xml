@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iv_size_16">16dp</dimen>
+    <dimen name="iv_size_24">24dp</dimen>
+    <dimen name="iv_size_32">32dp</dimen>
+    <dimen name="iv_size_48">48dp</dimen>
+    <dimen name="iv_size_56">56dp</dimen>
+    <dimen name="iv_size_64">64dp</dimen>
+    <dimen name="iv_size_72">72dp</dimen>
+    <dimen name="iv_size_96">96dp</dimen>
+    <dimen name="iv_size_128">128dp</dimen>
+    <dimen name="iv_size_144">144dp</dimen>
+
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_48">48sp</dimen>
+    <dimen name="text_size_64">64sp</dimen>
+
+    <dimen name="space_2">2dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_6">6dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_48">48dp</dimen>
+    <dimen name="space_64">64dp</dimen>
+    <dimen name="space_72">72dp</dimen>
+    <dimen name="space_96">96dp</dimen>
+    <dimen name="space_128">128dp</dimen>
+    <dimen name="space_144">144dp</dimen>
+    <dimen name="space_160">160dp</dimen>
+    <dimen name="space_172">172dp</dimen>
+    <dimen name="space_224">224dp</dimen>
+    <dimen name="space_256">256dp</dimen>
+    <dimen name="space_320">320dp</dimen>
+    <dimen name="space_640">640dp</dimen>
+    <dimen name="shiba">16px</dimen>
+    <dimen name="shier">12px</dimen>
+    <dimen name="shiSP">10sp</dimen>
+    <dimen name="yipx">1px</dimen>
+    <dimen name="erpx">2px</dimen>
+    <dimen name="wushipx">50px</dimen>
+    <dimen name="more_top_bottom_padding">14dp</dimen>
+    <dimen name="more_top_margin">10dp</dimen>
+    <dimen name="more_left_right_padding">12dp</dimen>
+    <dimen name="more_right_margin">10dp</dimen>
+
+    <dimen name="text_big_size">16sp</dimen>
+    <dimen name="text_mid_size">14sp</dimen>
+    <dimen name="text_small_size">12sp</dimen>
+    <dimen name="text_toosmall_size">10sp</dimen>
+    <dimen name="image_def_size">76dp</dimen>
+
+    <dimen name="line_gray_halving_height">6dp</dimen>
+</resources>
